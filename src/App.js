@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Homepage from './components/Homepage';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      Welcome to Project 1 Demo! You can find the documentation and requirements for this assignment here. 
+      This project will cover the following tools for building UIs: React, CSS, and React-Router.
+      You will also be assessed on your use of git/GitHub and feature branch workflow.
+      See example.
+      <Homepage />
+
     </div>
   );
 }
