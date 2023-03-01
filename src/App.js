@@ -11,8 +11,20 @@ import { Routes, Route, Outlet, Link } from "react-router-dom";
 export default function App() {
   return (
     <div className="App">
-      <h1>HELLO</h1>
-    </div>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Homepage />} />
+          <Route path="lodging" element={<Lodging />} />
+          <Route path="restaurants" element={<Restaurants />} />
+          <Route path="attractions" element={<Attractions />} />
+
+
+          {/* Using path="*"" means "match anything", so this route
+                acts like a catch-all for URLs that we don't have explicit
+                routes for. */}
+          <Route path="*" element={<NoMatch />} />
+        </Route>
+      </Routes>    </div>
   );
 }
 const navStyle = {textDecoration: "none", color: "blue"};
