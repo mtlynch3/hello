@@ -4,7 +4,11 @@
     padding: 10px;
 
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* row-gap: 10px;
+    column-gap: 10px; */
+    gap: 10px;
+
 }
 
 .item {
@@ -13,4 +17,5 @@
     font-size: 20px;
     padding: 20px;
     border: pink 1px solid;
+    /* margin: 20px; dont need this bc we have gap property with grid*/
 }
