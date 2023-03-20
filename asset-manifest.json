@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/hello/static/css/main.99da2568.css",
+    "main.js": "/hello/static/js/main.ddeb71f4.js",
+    "static/js/787.cc6d9777.chunk.js": "/hello/static/js/787.cc6d9777.chunk.js",
+    "static/media/squidwards-house.png": "/hello/static/media/squidwards-house.6fb42879597929647c4d.png",
+    "static/media/spongebobs-house.webp": "/hello/static/media/spongebobs-house.f114be39e0849b880531.webp",
+    "static/media/SpongeboyRegular.otf": "/hello/static/media/SpongeboyRegular.7127e753e63e0a5a12f6.otf",
+    "static/media/patricks-house.jpeg": "/hello/static/media/patricks-house.6f98453e3db05ae24a9e.jpeg",
+    "index.html": "/hello/index.html",
+    "main.99da2568.css.map": "/hello/static/css/main.99da2568.css.map",
+    "main.ddeb71f4.js.map": "/hello/static/js/main.ddeb71f4.js.map",
+    "787.cc6d9777.chunk.js.map": "/hello/static/js/787.cc6d9777.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.99da2568.css",
+    "static/js/main.ddeb71f4.js"
+  ]
+}
