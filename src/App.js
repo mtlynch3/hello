@@ -24,9 +24,11 @@ export default function App() {
                 routes for. */}
           <Route path="*" element={<NoMatch />} />
         </Route>
-      </Routes>    </div>
+      </Routes>    
+    </div>
   );
 }
+
 const navStyle = {textDecoration: "none", color: "blue"};
 function Layout() {
   return (
